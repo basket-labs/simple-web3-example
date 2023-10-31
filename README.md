@@ -12,5 +12,8 @@
 
 1. [infura.io 사이트](https://app.infura.io)에 접속 및 가입
 2. (Optional) 키발급
-3. 발급된 키 확인
-4. environments를 수정하고 테스트
+3. 발급된 키(주소 예시: https://mainnet.infura.io/v3/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 에서 xxxx부분에 해당) 확인
+4. `cp .env.example .env`로 .env 파일 생성
+5. `vi .env` 후, `<Coin symbol>_INFURA_KEY=xxxxx` 추가
+6. `npm install`로 필요한 라이브러리 설치
+7. `node index.js` 혹은 `npm start`로 실행

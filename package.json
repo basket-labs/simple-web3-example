@@ -1,0 +1,19 @@
+{
+  "name": "simple-web3-example",
+  "version": "1.0.0",
+  "description": "각종 Onchain data에 접근하는 예제(feat. infura.io, 나중엔 node를 직접 띄우는\b방법을 포함한 예제를 작성할 예정)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "web3": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/web3": "^1.2.2"
+  }
+}
